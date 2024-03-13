@@ -17,9 +17,7 @@ const Billing = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Easily control your <br className='sm:block hidden'/> billing & invoicing.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Elit enim sed massa etiam.
-          Mauris eu adipiscing ultrices ametodio aenean neque.
-          Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+          Need help with website design, SEO, or mobile app development with 3rd party integration? Don't hesitate to contact our team of expert web developers today.
         </p>
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
           <img

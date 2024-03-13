@@ -7,14 +7,13 @@ const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+        <h2 className={styles.heading2}>Find a better solution <br className='sm:block hidden'/>in a few easy steps.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+          We strive to create innovative web solutions, from CMS to mobile apps, that empower businesses. Our mission is to enhance online presence through SEO, e-commerce, and exceptional website design.
         </p>
-        <Button styles='mt-10'/>
+        <a href="#contact">
+          <Button styles='mt-10'/>
+        </a>
       </div>
       <div className={layout.sectionImg}>
         <img

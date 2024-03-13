@@ -25,16 +25,15 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id='features' className={layout.section}>
+    <section id='services' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>we'll handle the money.</h2>
+        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>We'll automate it.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, 
-          you can improve your financial life by building credit,
-          earning rewards and saving money.
-          But with hundreds of credit cards on the market.
+We offer a comprehensive range of services in the Web Development industry, tailored to meet the unique needs of our clients.
         </p>
-        <Button styles='mt-10'/>
+        <a href="#contact">
+          <Button styles='mt-10'/>
+        </a>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (

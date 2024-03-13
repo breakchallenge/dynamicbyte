@@ -14,24 +14,23 @@ const Hero = () => {
           />
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>20%</span> Discount For {" "}
-            <span className='text-white'>1 Month</span> Account
+            <span className='text-white'>6 Months</span> Project
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
-            The Next <br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Generation</span> {" "}
+            Innovative <br className='sm:block hidden'/> {" "}
+            <span className='text-gradient'>Development</span> {" "}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted/>
           </div>
         </div>
         <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
-          Payment Method.
+          Solutions.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
-        We examine annual percentage rates, annual fees.  
+        Offering top-notch web development services including CMS, E-commerce, mobile apps, SEO, and website design.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

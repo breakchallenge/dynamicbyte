@@ -2,6 +2,12 @@ import {
   people01, 
   people02, 
   people03, 
+  people04,
+  people05,
+  people06,
+  people07,
+  people08,
+  people09,
   facebook, 
   instagram, 
   linkedin, 
@@ -21,16 +27,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    id: "services",
+    title: "Services",
   },
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -38,23 +48,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Content Management Systems (CMS)",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our Content Management Systems (CMS) service allows you to manage your website's content with ease, ensuring it's always up-to-date and relevant to your audience.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "E-commerce Development",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We specialize in E-commerce Development, creating robust and user-friendly online stores that drive sales and enhance customer experience.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Mobile Application Development",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our Mobile Application Development service helps businesses reach their customers on their devices, offering engaging and intuitive mobile apps.",
   },
 ];
 
@@ -62,26 +72,65 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Exceptional web development services, truly top-notch!",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Co-Founder",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Outstanding SEO and mobile app development. Highly recommend!",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Business analyst",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Fantastic e-commerce solutions. Transformed my business!",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "CEO",
     img: people03,
+  },
+];
+
+export const team = [
+  {
+    id: "0",
+    name: "Shane Card",
+    title: "Front End Developer",
+    img: people04,
+  },
+  {
+    id: "1",
+    name: "Louis Levin",
+    title: "Full Stack Developer",
+    img: people05,
+  },
+  {
+    id: "2",
+    name: "Peter Johnson",
+    title: "Full Stack Developer",
+    img: people06,
+  },
+  {
+    id: "3",
+    name: "Jackson Lee",
+    title: "CMS & Mobile Developer",
+    img: people07,
+  },
+  {
+    id: "4",
+    name: "Thomas Jones",
+    title: "Team Lead",
+    img: people08,
+  },
+  {
+    id: "5",
+    name: "Derrick Behlin",
+    title: "CEO & Accountant",
+    img: people09,
   },
 ];
 
@@ -89,68 +138,52 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: "150+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "5+",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "$230M+",
+    value: "$1M+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Contact us",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "485 W 13TH ST, PERRIS, CA",
+        link: "",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "+1 341-226-8330",
+        link: "",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "+1 706-445-2401",
+        link: "",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Menu",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "About Us",
+        link: "#about",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Contact Us",
+        link: "#contact",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Our Services",
+        link: "#services",
       },
     ],
   },
@@ -158,12 +191,8 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Our Clients",
+        link: "#clients",
       },
     ],
   },

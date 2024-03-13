@@ -4,9 +4,9 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./logo-2.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import robot from "./robot-2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -23,6 +23,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import people04 from "./people04.jpg"
+import people05 from "./people05.jpg"
+import people06 from "./people06.jpg"
+import people07 from "./people07.jpg"
+import people08 from "./people08.jpg"
+import people09 from "./people09.jpg"
 
 export {
   airbnb,
@@ -50,4 +56,10 @@ export {
   people01,
   people02,
   people03,
+  people04,
+  people05,
+  people06,
+  people07,
+  people08,
+  people09,
 };
