@@ -98,7 +98,7 @@ export const feedback = [
 export const team = [
   {
     id: "0",
-    name: "Shane Card",
+    name: "Derrick Behlin",
     title: "Front End Developer",
     img: people04,
   },
@@ -128,8 +128,8 @@ export const team = [
   },
   {
     id: "5",
-    name: "Derrick Behlin",
-    title: "CEO & Accountant",
+    name: "Shane Card",
+    title: "CEO",
     img: people09,
   },
 ];

@@ -12,7 +12,7 @@ const Contactus = () => {
   const [message, setMessage] = useState('')
 
   const sendData = () => {
-    axios.post('https://zhulinllc.vercel.app/api/contact', {
+    axios.post('https://dynamicbyteinnovationsllc.vercel.app/api/contact', {
       name,
       email,
       phone,
